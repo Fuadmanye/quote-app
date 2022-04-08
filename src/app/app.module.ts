@@ -8,7 +8,8 @@ import { QuotesComponent } from './quotes/quotes.component';
 @NgModule({
   declarations: [
     AppComponent,
-    QuotesComponent
+    QuotesComponent,
+    QuotesComponent,
   ],
   imports: [
     BrowserModule,
