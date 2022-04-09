@@ -1,5 +1,8 @@
 # {Application Name}
 QUOTE APP
+
+## Author Name
+Fuad Manye
 ## Description
 This is a web application that enables users and motovational speakers to read,create,delete,like,and dislike quotes.
 
@@ -24,3 +27,4 @@ This is a web application that enables users and motovational speakers to read,c
 ## Support and contact details
 Email:https://github.com/Fuadmanye/quote-app.git
 ### License
+Copyright (c) 2022 [click here to view license](LICENSE)
