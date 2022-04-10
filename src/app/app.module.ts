@@ -4,20 +4,21 @@ import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { QuoteComponent } from './quote/quote.component';
-import { QuoteInfoComponent } from './quote-info/quote-info.component';
-import { DayCountPipe } from './day-count.pipe';
-import { QuoteFormComponent } from './quote-form/quote-form.component';
-import { HighlightVoteDirective } from './highlight-vote.directive';
+import { QuotesComponent } from './components/quotes/quotes.component';
+import { QuotesDetailsComponent } from './components/quotes-details/quotes-details.component';
+import { QuotesFormComponent } from './components/quotes-form/quotes-form.component';
+import { HighlightQuoteDirective } from './directives/highlight-quote.directive';
+import { TimeQuotePipe } from './pipes/time-quote.pipe';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    QuoteComponent,
-    QuoteInfoComponent,
-    DayCountPipe,
-    QuoteFormComponent,
-    HighlightVoteDirective
+    QuotesComponent,
+    QuotesDetailsComponent,
+    QuotesFormComponent,
+    HighlightQuoteDirective,
+    TimeQuotePipe
   ],
   imports: [
     BrowserModule,
