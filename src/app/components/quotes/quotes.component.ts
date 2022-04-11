@@ -42,27 +42,7 @@ export class QuotesComponent implements OnInit {
       }
   }
 
-  // function for getting the quote with the highest upvotes
-  // initialValue:number
-  // newValue:number
-  // counter:number
-  
-  // highlightHighest(){
 
-  //    this.initialValue=0
-  //    this.newValue=0
-
-  //    for (this.counter=0; this.counter<this.quotes.length; this.counter++){
-  //        this.newValue =this.quotes[this.counter].upVote;
-
-  //        if(this.newValue > this.initialValue){
-  //            this.initialValue =this.newValue
-  //        }
-  //        return this.initialValue
-  //    }
-
-
-  // }
   
   highlightHighest() {
       
