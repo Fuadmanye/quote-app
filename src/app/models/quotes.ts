@@ -7,7 +7,6 @@ export class Quotes {
         public submissionDate: Date,
         public upVote: number,
         public downVote: number,
-        // public smallText: any
     ){
         this.showDetails = false;
     }
