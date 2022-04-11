@@ -52,7 +52,7 @@ export class QuotesComponent implements OnInit {
         quotesUpvote.push( this.quotes[j].upVote)
       }
       
-          //The sort callback has to return
+          // The sort callback has to return
 
           // a negative number if a < b
           // 0 if a === b
