@@ -52,11 +52,6 @@ export class QuotesComponent implements OnInit {
         quotesUpvote.push( this.quotes[j].upVote)
       }
       
-          // The sort callback has to return
-
-          // a negative number if a < b
-          // 0 if a === b
-          // a positive number if a > b
 
       quotesUpvote.sort(function (a, b) {
           //if b>a then b-a>0 and will return a positive number
