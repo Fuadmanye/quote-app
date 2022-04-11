@@ -42,7 +42,7 @@ export class QuotesComponent implements OnInit {
       }
   }
 
-  //function for getting the quote with the highest upvotes
+  // function for getting the quote with the highest upvotes
   // initialValue:number
   // newValue:number
   // counter:number
